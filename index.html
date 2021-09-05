@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="menu__inner">
+                <h1 class="menu__logo">
+                    Backendless
+                </h1>
+                <div class="menu__switch-desktop">
+                    <div class="menu__switch-input-group" onclick="setTheme('light')">
+                        <input type="radio" id="light-theme" name="color" value="Light" checked>
+                        <label for="light-theme">Light Theme</label>
+                    </div>
+                    <div class="menu__switch-input-group" onclick="setTheme('dark')">
+                        <input type="radio" id="dark-theme" name="color" value="Dark" >
+                        <label for="dark-theme">Dark Theme</label>
+                    </div>
+                    <div class="menu__switch-input-group" onclick="setTheme('grey')">
+                        <input type="radio" id="grey-theme" name="color" value="Grey" >
+                        <label for="grey-theme">Grey Theme</label>
+                    </div>
+                </div>
+                <div class="menu__switch-planshet">
+                    <button class="switch-btn light" onclick="setTheme('light')" title="Light mode">
+                        Light Theme
+                    </button>
+                    <button class="switch-btn dark" onclick="setTheme('dark')" title="Dark mode">
+                        Dark Theme
+                    </button>
+                    <button class="switch-btn grey" onclick="setTheme('grey')" title="Grey mode">
+                        Backendless Theme
+                    </button>
+                </div>
+                <div class="menu__switch-mobile">
+                    <select name="theme-select" id="theme-select">
+                        <option value="light" onclick="setTheme('light')">Light</option>
+                        <option value="dark" onclick="setTheme('dark')">Dark</option>
+                        <option value="grey" onclick="setTheme('grey')">Grey</option>
+                       
+                    </select>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="gallery">
+        <div class="container">
+            <div class="gallery__head">
+                <div class="gallery__title">
+                    <span style="--i:1">B</span>
+                    <span style="--i:2">a</span>
+                    <span style="--i:3">c</span>
+                    <span style="--i:4">k</span>
+                    <span style="--i:5">e</span>
+                    <span style="--i:6">n</span>
+                    <span style="--i:7">d</span>
+                    <span style="--i:8">l</span>
+                    <span style="--i:9">e</span>
+                    <span style="--i:10">s</span>
+                    <span style="--i:11">&nbsp;</span>
+                    <span style="--i:12">G</span>
+                    <span style="--i:13">a</span>
+                    <span style="--i:14">l</span>
+                    <span style="--i:15">l</span>
+                    <span style="--i:16">e</span>
+                    <span style="--i:17">r</span>
+                    <span style="--i:18">y</span>
+                </>
+            </div>
+            <div class="gallery__inner">
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>1</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image"src="img/1000x600.png" alt="">
+                    <span>2</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>3</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>4</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>5</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>6</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>7</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>8</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt=""> 
+                    <span>9</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>10</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>11</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>12</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>13</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>14</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>15</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>16</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>17</span>
+                </div>
+                <div class="gallery__img-box show-modal" class="show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>18</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>19</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>20</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>21</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>22</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>23</span>
+                </div>
+                <div class="gallery__img-box show-modal">
+                    <img class="gallery__image" src="img/1000x600.png" alt="">
+                    <span>24</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery-modal" id="modal">
+        <div class="gallery-modal__content">
+            <div class="gallery-modal__container">
+                <img class="gallery-modal__image" src="img/1000x600.png" alt="">
+                <span class="gallery-modal__close">X</span>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__contacts">
+                    <a href="#">Backendless.com</a>
+                    <a href="#">555-555-555</a>
+                </div>
+                <div class="footer__socials">
+                    <a href="#"><i class="icon-instagram"></i></a>
+                    <a href="#"><i class="icon-facebook-squared"></i></a>
+                    <a href="#"><i class="icon-twitter-squared"></i></a>
+                    <a href="#"><i class="icon-telegram"></i></a>
+                    <a href="#"><i class="icon-youtube-play"></i></a>
+                    <a href="#"><i class="icon-vkontakte"></i></a>
+                    <a href="#"><i class="icon-mail-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
